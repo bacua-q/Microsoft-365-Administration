@@ -1,12 +1,11 @@
 
 # Enable Exchange Online Mailbox Archiving 
 
-1.  1.  In the new EAC, navigate to **Recipients** \> **Mailboxes**.
-2.  In the list of mailboxes, select the user to enable their mailbox for archive.
-3.  In the flyout pane, select **Others**, and under **Mailbox archive**, select **Manage mailbox archive**
+1. In the new EAC, navigate to **Recipients** \> **Mailboxes**.
+2. In the list of mailboxes, select the user to enable their mailbox for archive.
+3. In the flyout pane, select **Others**, and under **Mailbox archive**, select **Manage mailbox archive**
 
-![Diagrama](Archive/Images/pasted-image-20230815185958.png)
-
+![Vista de buzón en M365](Images/Pasted%20image%2020230815185958.png)
 
 4.  On the **Manage mailbox archive** pane, turn on **Mailbox archive**, and then **Save**.
 
@@ -35,23 +34,7 @@ Run Test: https://aka.ms/PillarArchiveMailbox
 
 ## No archive
 
-Using Assist 365, check ELC Status, with "Display Mail User Overview"
-
-<figure>
-<img src="Pasted image 20230919093844.png" class="wikilink"
-alt="Pastedimage20230919093844.png" />
-<figcaption
-aria-hidden="true">Pastedimage20230919093844.png</figcaption>
-</figure>
-
-ELC Process should be - FALSE.
-
-<figure>
-<img src="Pasted image 20230919094017.png" class="wikilink"
-alt="Pastedimage20230919094017.png" />
-<figcaption
-aria-hidden="true">Pastedimage20230919094017.png</figcaption>
-</figure>
+Using Assist 365, check ELC Status, with "Display Mail User Overview" or :
 
 1.  In compliance \> Data cycle Management \> Check MRM Policy, and Tag. Verify the is no personal.
     <img src="Pasted image 20230920074739.png" class="wikilink"
