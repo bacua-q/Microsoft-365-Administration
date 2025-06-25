@@ -1,6 +1,10 @@
 
 # Enable Exchange Online Mailbox Archiving 
 
+The Auto-Expanding Archive feature in Microsoft 365 allows archive mailboxes to grow automatically once they reach the initial 100 GB storage limit. According to official Microsoft documentation, this feature is available in plans like Exchange Online Plan 2 or Microsoft 365 E3/E5, and can expand up to 1.5 TB per user. For Exchange Online Plan 1, an additional compliance license is required to enable this functionality. It is ideal for organizations with high email volumes and long-term retention needs, as it prevents users from running out of archive space without requiring manual intervention.
+
+## To enable Auto-Expanding Archive in Microsoft 365, follow these steps:
+
 1. In the new EAC, navigate to **Recipients** \> **Mailboxes**.
 2. In the list of mailboxes, select the user to enable their mailbox for archive.
 3. In the flyout pane, select **Others**, and under **Mailbox archive**, select **Manage mailbox archive**
@@ -32,7 +36,7 @@ Run Test: https://aka.ms/PillarArchiveMailbox
 
     Enable-Mailbox bcuadra@support365.cloudns.ph -AutoExpandingArchive
 
-## No archive
+## If archiving is not working, verify the following statuses.
 
 Using Assist 365, check ELC Status, with "Display Mail User Overview" or :
 
@@ -43,21 +47,12 @@ Using Assist 365, check ELC Status, with "Display Mail User Overview" or :
 
 2.  Active Litigation Hold.
 
-<figure>
-<img src="Pasted image 20230920075842.png" class="wikilink"
-alt="Pastedimage20230920075842.png" />
-<figcaption
-aria-hidden="true">Pastedimage20230920075842.png</figcaption>
-</figure>
+    ![Imagen 4](Images/Pasted%20image%20230920075842.png)
+
 
 Using Assist 365, for verify Litigation Hold Status. "Analyzes M365 mailbox MRM processing status"
 
-<figure>
-<img src="Pasted image 20230919103219.png" class="wikilink"
-alt="Pastedimage20230919103219.png" />
-<figcaption
-aria-hidden="true">Pastedimage20230919103219.png</figcaption>
-</figure>
+![Imagen 5](Images/Pasted%20image%20230919103219.png)
 
 3.  In compliance \> Data cycle management \> Microsoft 365 \> Retention policies. Verify that the user is not in a retention policy. Exclude to mailbox.
     <img src="Pasted image 20230920075540.png" class="wikilink"
