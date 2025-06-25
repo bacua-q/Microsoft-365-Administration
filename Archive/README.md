@@ -5,7 +5,7 @@
 2. In the list of mailboxes, select the user to enable their mailbox for archive.
 3. In the flyout pane, select **Others**, and under **Mailbox archive**, select **Manage mailbox archive**
 
-![Vista de buzón en M365](Images/Pasted%20image%2020230815185958.png)
+![Imagen 1](Images/Pasted%20image%2020230815185958.png)
 
 4.  On the **Manage mailbox archive** pane, turn on **Mailbox archive**, and then **Save**.
 
@@ -37,10 +37,9 @@ Run Test: https://aka.ms/PillarArchiveMailbox
 Using Assist 365, check ELC Status, with "Display Mail User Overview" or :
 
 1.  In compliance \> Data cycle Management \> Check MRM Policy, and Tag. Verify the is no personal.
-    <img src="Pasted image 20230920074739.png" class="wikilink"
-    alt="Pastedimage20230920074739.png" />
-    <img src="Pasted image 20230920075018.png" class="wikilink"
-    alt="Pastedimage20230920075018.png" />
+
+    ![Imagen 2](Images/Pasted%20image%2020230920074739.png)
+    ![Imagen 3](Images/Pasted%20image%2020230920075018.png)
 
 2.  Active Litigation Hold.
 
