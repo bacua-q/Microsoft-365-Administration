@@ -5,12 +5,8 @@
 2.  In the list of mailboxes, select the user to enable their mailbox for archive.
 3.  In the flyout pane, select **Others**, and under **Mailbox archive**, select **Manage mailbox archive**
 
-<figure>
-<img src="Pasted image 20230815185958.png" class="wikilink"
-alt="Pastedimage20230815185958.png" />
-<figcaption
-aria-hidden="true">Pastedimage20230815185958.png</figcaption>
-</figure>
+![Diagrama](Archive/Images/pasted-image-20230815185958.png)
+
 
 4.  On the **Manage mailbox archive** pane, turn on **Mailbox archive**, and then **Save**.
 
