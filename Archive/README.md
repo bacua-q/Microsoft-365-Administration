@@ -1,7 +1,5 @@
 
-\> Relation Topics <a href="Archive Online" class="wikilink">ArchiveOnline</a> \| <a href="Retention Policy" class="wikilink">RetentionPolicy</a> \| <a href="Retention Policy - MRM"
-class="wikilink">RetentionPolicy-MRM</a> \| <a href="Deleted Retention Policy"
-class="wikilink">DeletedRetentionPolicy</a>
+# Enable Exchange Online Mailbox Archiving 
 
 1.  1.  In the new EAC, navigate to **Recipients** \> **Mailboxes**.
 2.  In the list of mailboxes, select the user to enable their mailbox for archive.
