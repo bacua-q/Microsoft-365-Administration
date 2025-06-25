@@ -70,7 +70,7 @@ Display process:
 
 Verify Archive
 
-![Imagen 8](Images/Pasted%20image%20202514.png)
+![Imagen 8](Images/202514.png)
 
 Until 1.5 TB
 
