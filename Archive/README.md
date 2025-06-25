@@ -47,19 +47,15 @@ Using Assist 365, check ELC Status, with "Display Mail User Overview" or :
 
 2.  Active Litigation Hold.
 
-    ![Imagen 4](Images/Pasted%20image%20230920075842.png)
-
-
-Using Assist 365, for verify Litigation Hold Status. "Analyzes M365 mailbox MRM processing status"
-
-![Imagen 5](Images/Pasted%20image%20230919103219.png)
+    ![Imagen 4](Images/Pasted%20image%2020230920075842.png) 
 
 3.  In compliance \> Data cycle management \> Microsoft 365 \> Retention policies. Verify that the user is not in a retention policy. Exclude to mailbox.
-    <img src="Pasted image 20230920075540.png" class="wikilink"
-    alt="Pastedimage20230920075540.png" /><img src="Pasted image 20230920075643.png" class="wikilink"
-    alt="Pastedimage20230920075643.png" />
-    Wait for the Delayhold police to act. after you remove the user from the hold policy.
 
+     ![Imagen 6](Images/Pasted%20image%2020230920075540.png)
+     ![Imagen 7](Images/Pasted%20image%2020230920075643.png)
+
+ Wait for the Delayhold police to act. after you remove the user from the hold policy.
+ 
 <!-- -->
 
     Set-Mailbox Usuario@Dominio.com -RemoveDelayHoldApplied  
@@ -74,11 +70,7 @@ Display process:
 
 Verify Archive
 
-<figure>
-<img src="MicrosoftTeams-image.png" class="wikilink"
-alt="MicrosoftTeams-image.png" />
-<figcaption aria-hidden="true">MicrosoftTeams-image.png</figcaption>
-</figure>
+![Imagen 8](Images/Pasted%20image%20202514.png)
 
 Until 1.5 TB
 
@@ -98,10 +90,5 @@ Until 1.5 TB
 
     Start-ManagedFolderAssistant -Identity bcuadra@safe.cloudns.us
 
-ElcLastRunDeletedFromRootItemCount  - items from Deleted Items folder that expire and should be moved to Recoverable Items automatically   
-ElcLastRunDeletedFromDumpsterItemCount -- items from Recoverable Items folder that are purged  
-ElcLastRunArchivedFromRootItemCount - items that are being moved from the primary mailbox Inbox or Top of Information Store, into the archive's Inbox or Top of Information Store  
-<font color="#00b050">**ElcLastRunArchivedFromDumpsterItemCount** </font> - items that are being moved from the primary mailbox Recoverable Items folder into the archive mailbox Recoverable Items folder  
-<font color="#00b050">ElcLastSuccessTimestamp </font>- the last time when MRM processed the mailbox without encountering any errors; in case of MRM throttling, these errors can be temporary, which means that items will continue to be moved/deleted but at a slower rate than usual.
 
 *\> Autor: Bayardo Cuadra*
